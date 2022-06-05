@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/function.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#navbar').load("nav-bar.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#footer').load("footer.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#sidenav').load("side-menu.html");
+
+        });
+    </script>
+        <script>
+            $(document).ready(function () {
+    
+                $('#addCart').load("add-to-cart.html");
+    
+            });
+        </script>
+    <title>Product Listing Les Paul Classic</title>
+</head>
+
+<body>
+
+    <!-- ----------------------NAVBAR----------------------- -->
+    <div id="navbar"></div>
+
+    <!-- ----------------------SIDENAV----------------------- -->
+
+    <div id="sidenav"></div>
+
+    <!-- ----------------------ADD TO CART----------------------- -->
+
+    <div id="addCart"></div>
+
+    <!-- ----------------------BREADCRUMBS----------------------- -->
+
+    <div class="breadcrumbs breadcrumbs-product">
+        <a href="product-page.html" class="previous-page">
+            <h3>GUITARS</h3>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </a>
+        <a href="product-page.html" class="previous-page">
+            <h3>ELECTRIC GUITARS</h3>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </a>
+        <h3 class="current-page">LES PAUL CLASSIC</h3>
+    </div>
+
+    <!-- ----------------------PRODUCT LISTING CONTAINER----------------------- -->
+
+    <!-- IMAGE GALLERY -->
+    <div class="product-listing-container">
+        <div class="listing-gallery">
+            <img class="listing-main" src="/images/Les-Paul-Classic.png" alt="Les Paul Classic">
+            <div class="product-scroll-arrows">
+                <a href="#"><ion-icon name="chevron-back-outline" style="font-size: 2em;"></ion-icon></a>
+                <a href="#"><ion-icon name="chevron-forward-outline" style="font-size: 2em;"></ion-icon></a>
+            </div>
+            <div class="listing-scroll">
+                <a href="#"><img class="listing-scroll-tile" src="/images/listing-1.png"
+                        alt="les paul classic close up"></a>
+                <a href="#"><img class="listing-scroll-tile" src="/images/listing-2.png"
+                        alt="les paul classic body"></a>
+                <a href="#"><img class="listing-scroll-tile" src="/images/listing-3.png"
+                        alt="les paul classic handle"></a>
+                <a href="#"><img class="listing-scroll-tile" src="/images/listing-1.png"
+                        alt="les paul classic close up"></a>
+            </div>
+        </div>
+        <!-- PRODUCT INFO -->
+        <div class="listing-details-container">
+            <div class="details-colours-row">
+                <div class="listing-details">
+                    <h2 class="grey">GIBSON 2020</h2>
+                    <h2>LES PAUL CLASSIC</h2>
+                    <h2 class="listing-price">$2,440.00</h2>
+                </div>
+                <div class="listing-colours">
+                    <div class="dot-large dot-dark-blue"></div>
+                    <div class="dot-large dot-dark-dark-blue dot-border"></div>
+                </div>
+            </div>
+            <!-- PURCHASE OPTIONS -->
+            <div class="listing-buttons-wrapper dissapear">
+                <a class="buttons-tile product-add-to-cart" style="cursor:pointer" onclick="openCart()" href="#">Add to Cart</a>
+                <div class="quantity-listing">
+                    <a href="#">-</a>
+                    <p>1</p>
+                    <a href="#">+</a>
+                </div>
+                <a class="buttons-tile buy-now" href="shopping-cart.html">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------PRODUCT DESCRIPTION CONTAINER----------------------- -->
+
+    <div class="description-container">
+        <div class="details-top">
+            <h3 class="listing-header">DESCRIPTION & DETAILS</h3>
+            <div class="description-body">
+                <p>The Gibson Les Paul™ Classic combines the early 60s style Les Paul model with some functional
+                    and time-tested modifications. As expected, the LP Classic is crafted with a mahogany back and
+                    maple top coupled with a slim taper mahogany neck and bound, rosewood fingerboard.</p>
+                <p>BurstBucker™ 61R & 61T zebra, open-coil pickups provide classic Gibson tones from the era with
+                    a bit of extra punch thanks to the open coils. The control assembly features 4 push-pull pots
+                    which
+                    provide choices of coil tapping, phase switching, and pure bypassing for functional and
+                    versatile
+                    sonic variety.</p>
+            </div>
+        </div>
+        <div class="description-bottom">
+            <h3 class="listing-header">FEATURES</h3>
+            <div class="details-bottom-row">
+                <ul class="feature-bullet-points">
+                    <li>Three V-Mod II single-coil Stratocaster pickups</li>
+                    <li>Upgraded 2-Point Tremolo with Cold-Rolled Steel Block</li>
+                    <li>Deep “C”-shaped neck profile with rolled fingerboard edges</li>
+                    <li>Bone nut; 22 narrow-tall frets for easy bending</li>
+                    <li>Treble bleed circuit maintains highs when reducing volume</li>
+                    <li>Includes Deluxe Molded hardshell case</li>
+                </ul>
+            </div>
+
+            <!-- ----------------------WE ALSO RECOMMEND----------------------- -->
+            <div class="recommend-container">
+                <p class="recommend-header">WE ALSO RECOMMEND</p>
+                <div class="recommed-row">
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/Antique-Victorian.png" alt=""></a>
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/Jazmaster-Gold.png" alt=""></a>
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/Player-Plus.png" alt=""></a>
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/American-Classic.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-seemore">
+        <a href="#">See More
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </a>
+    </div>
+    <div class="listing-buttons-wrapper float">
+        <a class="buttons-tile product-add-to-cart" onclick="openCart()" style="cursor:pointer" href="#">Add to Cart</a>
+
+        <div class="quantity-listing">
+            <a href="#">-</a>
+            <p>1</p>
+            <a href="#">+</a>
+        </div>
+        <a class="buttons-tile buy-now" href="shopping-cart.html">Buy Now</a>
+    </div>
+    <!-- ----------------------FOOTER----------------------- -->
+
+    <div id="footer"></div>
+
+</body>
+
+</html>

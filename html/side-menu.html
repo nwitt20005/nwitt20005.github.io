@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/function.js"></script>
+    <script src="https://kit.fontawesome.com/b9def743fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <title>Side Nav</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-regular fa-xmark"
+                style="font-size: 1.5em; color:white;"></i></a>
+
+        <!-- ----------------------SIDENAV----------------------- -->
+        <div class="sidenav-top">
+            <hr>
+            <ul>
+                <li><a class="shop-dropdown-parent" href="#">Shop<i class="fa-regular fa-plus"></i></a></li>
+                
+                <!-- SHOP DROP-DOWN ON CLICK -->
+                <ul class="shop-dropdown-child">
+                    <li><a href="/html/product-page.html">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Guitars
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Drums
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Live Sound
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Studio
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Keyboards
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Sheet Music
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>Accessories
+                        </a></li>
+                </ul>
+                </li>
+                <hr>
+                <!-- VISIT US & REVIEWS -->
+                <li><a href="#">Visit Us</a></li>
+                <hr>
+                <li><a href="#">Reviews</a></li>
+                <hr>
+            </ul>
+        </div>
+        <!-- ----------------------SIDE NAV CENTER CONTENT----------------------- -->
+
+        <ul class="cluster-one">
+            <li><a href="#">Freight</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+
+        <ul class="cluster-two">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Create Account</a></li>
+        </ul>
+
+        <!-- ----------------------SEARCH FUNCTION----------------------- -->
+
+        <div class="search-container search-side">
+            <input type="text" placeholder="Search.." name="search">
+            <a href="#">
+                <ion-icon name="search-outline"></ion-icon>
+            </a>
+        </div>
+
+        <hr>
+
+        <!-- ----------------------SOCIALS----------------------- -->
+
+        <ul class="sidenav-socials">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

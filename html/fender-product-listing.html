@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/function.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#navbar').load("nav-bar.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#footer').load("footer.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#sidenav').load("side-menu.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#addCartFender').load("add-to-cart-fender.html");
+
+        });
+    </script>
+    <title>Product Listing Jazzmaster Gold</title>
+</head>
+
+<body>
+
+    <!-- ----------------------NAVBAR----------------------- -->
+    <div id="navbar"></div>
+
+    <!-- ----------------------SIDENAV----------------------- -->
+
+    <div id="sidenav"></div>
+
+    <!-- ----------------------ADD TO CART----------------------- -->
+
+    <div id="addCartFender"></div>
+
+    <!-- ----------------------BREADCRUMBS----------------------- -->
+
+    <div class="breadcrumbs breadcrumbs-product">
+        <a href="product-page.html" class="previous-page">
+            <h3>GUITARS</h3>
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </a>
+        <a href="product-page.html" class="previous-page">
+            <h3>ELECTRIC GUITARS</h3>
+        </a>
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+        <h3 class="current-page">JAZZMASTER GOLD</h3>
+    </div>
+
+    <!-- ----------------------PRODUCT LISTING CONTAINER----------------------- -->
+
+    <!-- IMAGE GALLERY -->
+    <div class="product-listing-container">
+        <div class="listing-gallery">
+            <img class="listing-main" src="/images/jazzmaster-gold-big.png" alt="Les Paul Classic">
+            <div class="product-scroll-arrows">
+                <a href="#"><ion-icon name="chevron-back-outline" style="font-size: 2em;"></ion-icon></a>
+                <a href="#"><ion-icon name="chevron-forward-outline" style="font-size: 2em;"></ion-icon></a>
+            </div>
+            <div class="listing-scroll">
+                <a href="#"><img class="listing-scroll-tile" src="/images/fender-listing-4.png"
+                        alt="les paul classic close up"></a>
+                <a href="#"><img class="listing-scroll-tile" src="/images/fender-listing-2.png"
+                        alt="les paul classic body"></a>
+                <a href="#"><img class="listing-scroll-tile" src="/images/fender-listing-1.png"
+                        alt="les paul classic handle"></a>
+                <a href="#"><img class="listing-scroll-tile" src="/images/fender-listing-3.png"
+                        alt="les paul classic close up"></a>
+            </div>
+        </div>
+        <!-- PRODUCT INFO -->
+        <div class="listing-details-container">
+            <div class="details-colours-row">
+                <div class="listing-details">
+                    <h2 class="grey">FENDER</h2>
+                    <h2>JAZZ MASTER GOLD</h2>
+                    <h2 class="listing-price">$1,249.00</h2>
+                </div>
+                <div class="listing-colours">
+                    <div class="dot-large dot-light-blue"></div>
+                    <div class="dot-large dot-cream"></div>
+                </div>
+            </div>
+            <!-- PURCHASE OPTIONS -->
+            <div class="listing-buttons-wrapper dissapear">
+                <a class="buttons-tile product-add-to-cart" onclick="openCartFender()" style="cursor:pointer" href="#">Add to Cart</a>
+                <div class="quantity-listing">
+                    <a href="#">-</a>
+                    <p>1</p>
+                    <a href="#">+</a>
+                </div>
+                <a class="buttons-tile buy-now" href="shopping-cart.html">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------PRODUCT DESCRIPTION CONTAINER----------------------- -->
+
+    <div class="description-container">
+        <div class="details-top">
+            <h3 class="listing-header">DESCRIPTION & DETAILS</h3>
+            <div class="description-body">
+                <p>The first instruments to bear the Squier name were introduced in 1982, answering the call for genuine
+                    Fender® designs at accessible prices. The Squier 40th Anniversary collection celebrates the 40-year
+                    journey of Fender’s entry-level brand with special editions of the Telecaster®, Stratocaster®,
+                    Jazzmaster®, Precision Bass®, and Jazz Bass®, all available in Gold Edition and Vintage Edition
+                    variants. </p>
+                <p>The Squier® 40th Anniversary Jazzmaster®, Gold Edition is a stylish model adorned with an
+                    eye-catching collection of upscale features for the discerning Squier fanatic. Featuring striking
+                    gold-plated hardware, a gold anodized aluminum pickguard, a bound Indian laurel fingerboard with
+                    pearloid block inlays, an engraved anniversary neck plate and gloss finish throughout, this
+                    Jazzmaster is poised and ready for the spotlight. Player-friendly refinements of this commemorative
+                    model include a slim and comfortable “C”-shaped neck profile for an easy playing feel, vintage-style
+                    tuning machines and 6-saddle floating bridge and tremolo for authentic performance and style, and
+                    Fender-Designed single-coil pickups with alnico 5 magnets for familiar Jazzmaster tone.</p>
+            </div>
+        </div>
+        <div class="description-bottom">
+            <h3 class="listing-header">FEATURES</h3>
+            <div class="details-bottom-row">
+                <ul class="feature-bullet-points">
+                    <li>Gold-plated hardware</li>
+                    <li>Gold anodized aluminum pickguard</li>
+                    <li>Gloss body and neck finish</li>
+                    <li>Vintage-style 6-saddle floating bridge and non-locking tremolo</li>
+                    <li>Vintage-style tuning machines</li>
+                </ul>
+            </div>
+
+
+            <!-- ----------------------WE ALSO RECOMMEND----------------------- -->
+            <div class="recommend-container">
+                <p class="recommend-header">WE ALSO RECOMMEND</p>
+                <div class="recommed-row">
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/Antique-Victorian.png" alt=""></a>
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/Jazmaster-Gold.png" alt=""></a>
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/Player-Plus.png" alt=""></a>
+                    <a href="#"><img class="recommend-tile bg-gradient" src="/images/American-Classic.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-seemore">
+        <a href="#">See More
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </a>
+    </div>
+    <div class="listing-buttons-wrapper float">
+        <a class="buttons-tile product-add-to-cart" onclick="openCartFender()" style="cursor:pointer" href="#">Add to Cart</a>
+        <div class="quantity-listing">
+            <a href="#">-</a>
+            <p>1</p>
+            <a href="#">+</a>
+        </div>
+        <a class="buttons-tile buy-now" href="shopping-cart.html">Buy Now</a>
+    </div>
+
+
+
+    <!-- ----------------------FOOTER----------------------- -->
+
+    <div id="footer"></div>
+
+</body>
+
+</html>

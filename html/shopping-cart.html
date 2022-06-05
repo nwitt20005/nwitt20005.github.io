@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/function.js"></script>
+    <script src="https://kit.fontawesome.com/b9def743fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#navbar').load("navbar-checkout.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#sidenav').load("side-menu.html");
+
+        });
+    </script>
+    <title>Shopping-Cart</title>
+</head>
+
+<body>
+
+    <!-- ----------------------NAVBAR----------------------- -->
+    <div id="navbar"></div>
+
+    <!-- ----------------------MAIN CONTAINER----------------------- -->
+
+    <div class="checkout-main-container">
+        <div class="checkout-scroll">
+            <!-- CART HEADER -->
+            <h2>CART</h2>
+            <!-- CART ITEM 1 -->
+            <div class="cart-item">
+                <div class="checkout-product-tile">
+                    <img class="checkout-image checkout-tile" src="/images/1Les-Paul-Classic.png" alt="les paul classic">
+                </div>
+                <div class="cart-product-details">
+                    <p class="checkout-product-brand">GIBSON 2020</p>
+                    <p>LES PAUL CLASSIC</p>
+                    <p>$2,440.00</p>
+                    <span class="dot-checkout dot-dark-dark-blue"></span>
+                    <div class="quantity-checkout">
+                        <a href="#">-</a>
+                        <p>1</p>
+                        <a href="#">+</a>
+                    </div>
+                </div>
+                <div class="bin">
+                    <a href="#"><i class="fa-regular fa-trash"></i></a>
+                </div>
+            </div>
+            <!-- CART ITEM 2 -->
+            <div class="cart-item">
+                <div class="checkout-product-tile">
+                    <img class="checkout-image checkout-tile" src="/images/Jazmaster-Gold.png" alt="les paul classic">
+                </div>
+                <div class="cart-product-details">
+                    <p class="checkout-product-brand">SQUIER</p>
+                    <p>JAZZMASTER GOLD</p>
+                    <p>$2,590.00</p>
+                    <span class="dot-checkout dot-cream"></span>
+                    <div class="quantity-checkout">
+                        <a href="#">-</a>
+                        <p>1</p>
+                        <a href="#">+</a>
+                    </div>
+                </div>
+                <div class="bin">
+                    <a href="#"><i class="fa-regular fa-trash"></i></a>
+                </div>
+            </div>
+            <!-- CART ITEM 3 -->
+            <div class="cart-item cart-item-last">
+                <div class="checkout-product-tile">
+                    <img class="checkout-image checkout-tile" src="/images/Player-Plus.png" alt="les paul classic">
+                </div>
+                <div class="cart-product-details">
+                    <p class="checkout-product-brand">FENDER LIMITED EDITION</p>
+                    <p>TELECASTER ELECTRIC</p>
+                    <p>$3,599.00</p>
+                    <span class="dot-checkout dot-peach"></span>
+                    <div class="quantity-checkout">
+                        <a href="#">-</a>
+                        <p>1</p>
+                        <a href="#">+</a>
+                    </div>
+                </div>
+                <div class="bin">
+                    <a href="#"><i class="fa-regular fa-trash"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- CHECKOUT SUMMARY FLOAT -->
+        <div class="checkout-summary">
+            <h3>SUBTOTAL: $8,620.00</h3>
+            <a href="gibson-product-listing.html" class="checkout-button">CONTINUE SHOPPING</a>
+            <a href="checkout.html" class="checkout-button">CHECKOUT</a>
+        </div>
+    </div>

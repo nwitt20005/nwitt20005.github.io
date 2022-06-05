@@ -1,0 +1,500 @@
+/* --------------------------PHONE DISPLAY------------------------- */
+
+/* -------BREADCRUMBS-------- */
+@media screen and (max-width: 600px) {
+
+    .breadcrumbs h3 {
+        font-size: var(--s-text);
+    }
+
+    .breadcrumbs .previous-page h3 {
+        font-size: var(--s-text);
+    }
+
+    .breadcrumbs ion-icon {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .breadcrumbs .previous-page:not(:first-child) {
+        display: none;
+    }
+
+    .breadcrumbs .previous-page:not(:first-child) ion-icon {
+        display: none;
+    }
+
+    .breadcrumbs h3 a{
+        font-size: var(--s-text);
+    }
+}
+
+/* ---------------NAV BAR--------------*/
+@media screen and (max-width: 640px) {
+
+    .topnav a {
+        float: none;
+        display: inline-flex;
+        vertical-align: middle;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .condensed-nav {
+        transform: scale(1);
+    }
+
+    .nav-left {
+        padding-left: 4em;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+}
+
+/* ------------------SIDE NAV---------------- */
+
+@media screen and (max-width: 600px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: var(--xxs-text);
+    }
+
+    .search-container input[type="text"] {
+        font-size: var(--s-text);
+        width: 80%;
+    }
+}
+
+/* -----------PRODUCT PAGE --------------- */
+@media screen and (max-width: 600px) {
+
+    .gallery-tile {
+        width: 45vw;
+    }
+
+    .product-gallery p {
+        font-size: var(--xs-text);
+    }
+
+    .quick-view {
+        margin-bottom: 3em;
+    }
+
+    .filter-collapse p{
+        font-size: var(--small-text);
+    }
+
+    .filter-collapse-icons{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .product-page-container {
+        padding-top: 5.5em;
+    }
+
+    .load-more a{
+        font-size: var(--small-text);
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .product-page-container{
+        padding-top: 5.5em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .filter-container {
+        display: none;
+    }
+
+    .gallery-tile {
+        width: 32vw;
+    }
+
+    .image-dot {
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+
+    .colour-preview {
+        width: 3.8em;
+        padding: 0.5em;
+    }
+
+    .collapse-wrap{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .filter-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+}
+
+/* -------------HOME------------ */
+
+@media screen and (max-width: 600px) {
+    .feature-header h2 {
+        font-size: var(--regular-text);
+    }
+}
+
+/* ----------PRODUCT LISTING------------ */
+
+@media screen and (max-width: 400px){
+    .product-scroll-arrows{
+        padding-left: 0em;
+        width: 85vw !important;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .product-scroll-arrows{
+        width: 87vw;
+        height: 42vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .listing-scroll {
+        display: none;
+    }
+
+    .listing-gallery img {
+        padding-bottom: 2.5em;
+    }
+
+    .listing-details-container h2 {
+        font-size: var(--nav-text);
+    }
+
+    .description-container h3 {
+        font-size: var(--nav-text);
+    }
+
+    .description-container p {
+        font-size: var(--xs-text);
+    }
+
+    .dot-large {
+        width: 2em;
+        height: 2em;
+    }
+
+    .listing-colours {
+        margin: 0;
+    }
+
+    .description-bottom {
+        display: none;
+    }
+
+    .float {
+        margin-bottom: 1em;
+        width: 95%;
+        margin-left: 2.5vw;
+    }
+
+    .details-top {
+        height: 6em;
+    }
+
+    .dissapear {
+        display: none;
+    }
+
+    .product-scroll-arrows{
+        transform: scale(1);
+    }
+
+    .product-seemore a{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .breadcrumbs-product {
+        margin-top: 6em;
+    }
+
+    .add-to-cart {
+        top: 6em;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .description-container {
+        -webkit-mask-image: none;
+    }
+
+    .float {
+        display: none;
+    }
+}
+
+/* ADD TO CART */
+
+@media screen and (max-width: 400px) {
+    .cart-add-main {
+        margin-left: 0.5em;
+        margin-right: 2em;
+    }
+
+    .cart-add-buttons {
+        margin-left: 0em;
+    }
+
+    .quantity{
+        padding: 0.2em;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .cart-add-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 2em;
+        width: 90vw;
+    }
+
+    .dot-cart {
+        width: 2em;
+        height: 2em;
+    }
+
+    .quantity p{
+        font-size: var(--xxs-small);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cart-add-main {
+        height: 30vh;
+    }
+
+    .add-header h2 {
+        font-size: var(--regular-text);
+    }
+
+    .cart-add-buttons h3 {
+        font-size: var(--small-text);
+    }
+
+    .view-cart {
+        margin-top: 0.5em;
+    }
+
+    .cart-text h3 {
+        font-size: var(--regular-text);
+    }
+
+    .add-to-cart img {
+        max-width: 5em;
+        max-height: 28vh;
+    }
+}
+
+/* ------------FOOTER----------- */
+
+@media screen and (max-width: 750px) {
+
+    .footer-about {
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer-policy {
+        display: none;
+    }
+
+    .footer-right {
+        display: none;
+    }
+
+}
+
+/* -----------------SHOPPING CART-------------- */
+
+@media screen and (max-width: 600px) {
+
+    .checkout-summary {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        float: top;
+        left: 3em;
+        padding-top: 2.2em;
+        font-size: var(--xss-text);
+    }
+
+    .checkout-scroll h2 {
+        margin-bottom: 4em;
+    }
+
+
+    .checkout-button {
+        margin-top: 0.5em;
+        vertical-align: middle;
+    }
+
+}
+
+/* ----------------CHECKOUT------------------- */
+@media screen and (max-width: 600px) {
+    .order-summary-container {
+        display: none;
+    }
+
+    .checkout-breadcrumbs{
+        margin-top: 6em;
+    }
+
+    form h3{
+        font-size: var(--nav-text);
+    }
+
+    form input[type="text"]{
+        font-size: var(--small-text);
+    }
+
+    form label{
+        font-size: var(--small-text);
+    }
+
+    .submit-button{
+        font-size: var(--regular-text);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .order-summary-container {
+        display: none;
+    }
+
+    .checkout-container {
+        padding: 1em 1em 2em 1em;
+        max-width: 100%;
+    }
+}
+
+/* ----CHECKOUT CONFIRMATION------ */
+
+@media screen and (max-width: 640px) {
+.confirmation-container h2{
+    font-size: var(--l-text);
+}
+
+.confirmation-container p{
+    font-size: var(--regular-text);
+}
+
+.bottom-cluster a{
+    font-size: var(--regular-text);
+}
+}
+
+/* -------------------------------IPAD DISPLAY----------------------------- */
+
+/* ---------------NAV BAR--------------*/
+
+@media screen and (max-width: 840px) {
+    .dropdown-categories {
+        display: none;
+    }
+
+    nav {
+        height: 6em;
+    }
+
+    .topnav {
+        margin-top: -2em;
+    }
+
+    .welcome-image {
+        margin-top: -3em;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .dropdown-categories a {
+        font-size: var(--xss-text);
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .dropdown-categories li {
+        font-size: var(--small-text);
+        margin-left: -0.2em;
+    }
+}
+
+/* ------PRODUCT LISTING-------- */
+
+@media screen and (max-width: 1119px) {
+
+    .listing-gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .listing-details-container {
+        padding-top: 1.8em;
+        width: 100vw;
+    }
+
+    .description-body {
+        max-width: 100%;
+    }
+
+    .recommend-container {
+        display: none;
+    }
+
+    .dot-large {
+        width: 3em;
+        height: 3em;
+    }
+
+    .listing-colours {
+        margin: 0;
+    }
+
+}
+
+/* -------------------------------WIDER DISPLAY----------------------------- */
+
+@media screen and (min-width: 1200px) {
+    .description-container {
+        -webkit-mask-image: none;
+    }
+
+    .float {
+        display: none;
+    }
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/function.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#navbar').load("nav-bar.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#footer').load("footer.html");
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('#sidenav').load("side-menu.html");
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- ----------------------NAVBAR IMPORT----------------------- -->
+
+    <div id="navbar"></div>
+
+    <!-- ----------------------SIDENAV----------------------- -->
+
+    <div id="sidenav"></div>
+
+    <!-- ----------------------BREADCRUMBS----------------------- -->
+    <div class="product-page-container">
+        <div class="breadcrumbs">
+            <a href="#" class="previous-page"><h3>GUITARS</h3></a> 
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+            <h3 class="current-page">ELECTRIC GUITARS</h3>
+        </div>
+
+        <!-- ----------------------FILTERS----------------------- -->
+        <div class="flex-container">
+            <!-- FILTERS -->
+            <div class="filter-container">
+                <div class="filter-title">
+                    <h3>FILTERS</h3>
+                    <div class="sort-by">Sort By:<ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                </div>
+                <ul class="filter-brand">
+                    <li>
+                        <p>BRAND</p>
+                    </li>
+                    <li><input type="checkbox">Aria</li>
+                    <li><input type="checkbox">Caparison</li>
+                    <li><input type="checkbox">Ernie Ball Music Man</li>
+                    <li><input type="checkbox">Fender</li>
+                    <li><input type="checkbox">Hagstrom</li>
+                    <li><input type="checkbox">Loog</li>
+                    <li><input type="checkbox">Mayones Guitars & Basses</li>
+                    <li><input type="checkbox">Michael Kelly</li>
+                    <li><input type="checkbox">Peavey</li>
+                    <li><input type="checkbox">Solar Guitars</li>
+                    <li><input type="checkbox">Sterling By Music Man</li>
+                    <li><input type="checkbox">Squir</li>
+                </ul>
+
+                <ul class="filter-colours">
+                    <li>
+                        <p>COLOURS</p>
+                    </li>
+                    <li class="colour-filter">
+                        <span class="filter-dot dot-dark-blue"></span>
+                        <span class="filter-dot dot-light-blue"></span>
+                        <span class="filter-dot dot-olive"></span>
+                        <span class="filter-dot dot-cream"></span>
+                        <span class="filter-dot dot-grey"></span>
+                        <span class="filter-dot dot-purple"></span>
+                        <span class="filter-dot dot-green"></span>
+                        <span class="filter-dot dot-aqua"></span>
+                        <span class="filter-dot dot-orange"></span>
+                        <span class="filter-dot dot-peach"></span>
+                        <span class="filter-dot dot-white"></span>
+                    </li>
+                </ul>
+
+                <ul class="filter-price">
+                    <li>
+                        <p>PRICE</p>
+                    </li>
+                    <li><input type="checkbox">$750-$1,000</li>
+                    <li><input type="checkbox">$1,000 - $2,000</li>
+                    <li><input type="checkbox">$2,000 - $3,000</li>
+                    <li><input type="checkbox">$3,000 +</li>
+                </ul>
+
+                <ul class="filter-availability">
+                    <li>
+                        <p>AVAILABILITY</p>
+                    </li>
+                    <li><input type="checkbox">Instock</li>
+                    <li><input type="checkbox">Sold Out</li>
+                </ul>
+            </div>
+
+            <!-- ----------------------PHOTO GALLERY GRID----------------------- -->
+            <div class="gallery-container">
+
+                <div class="collapse-wrap">
+                    <div class="filter-collapse">
+                        <p>FILTERS:</p>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                    <div class="filter-collapse-icons">
+                        <ion-icon style="font-size: 2em;" name="apps"></ion-icon>
+                        <i class="fa-solid fa-list-ul" style="font-size: 2em;"></i>
+                    </div>                
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="gibson-product-listing.html"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-light-blue"></div>
+                        <div class="image-dot dot-dark-dark-blue"></div>    
+                    </div>
+                    <a href="gibson-product-listing.html"><img src="/images/2Les-Paul-Classic.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Gibson 2020</p>
+                    <div class="details-row">
+                        <p class="product-name">Les Paul Classic</p>
+                        <p class="product-price">$3,499.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href=fender-product-listing.html><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-cream"></div>   
+                    </div>
+                    <a href="fender-product-listing.html"><img src="/images/2Jazmaster-Gold.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Fender</p>
+                    <div class="details-row">
+                        <p class="product-name">Jazzmaster Gold</p>
+                        <p class="product-price">$2,599.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-dark-blue"></div>
+                        <div class="image-dot dot-orange"></div>       
+                    </div>
+                    <a href="#"><img src="/images/2Antique-Victorian.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Fender 2012</p>
+                    <div class="details-row">
+                        <p class="product-name">American Performer</p>
+                        <p class="product-price">$3,499.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-peach"></div>
+                    </div>
+                    <a href="#"><img src="/images/2Player-Plus.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Fender Limited Edition</p>
+                    <div class="details-row">
+                        <p class="product-name">Telecaster Electric</p>
+                        <p class="product-price">$3,599.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-purple"></div>
+                        <div class="image-dot dot-grey"></div>       
+                    </div>
+                    <a href="#"><img src="/images/2American-Classic.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Solar Guitars</p>
+                    <div class="details-row">
+                        <p class="product-name">American Classic</p>
+                        <p class="product-price">$2,540.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-aqua"></div>
+                        <div class="image-dot dot-cream"></div>       
+                    </div>
+                    <a href="#"><img src="/images/2Gibson-2020.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Aria</p>
+                    <div class="details-row">
+                        <p class="product-name">Series Electric</p>
+                        <p class="product-price">$2,440.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-purple"></div>
+                        <div class="image-dot dot-black"></div>       
+                    </div>
+                    <a href="#"><img src="/images/2Slach-2019.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Aria</p>
+                    <div class="details-row">
+                        <p class="product-name">Hollow Electric</p>
+                        <p class="product-price">$1,550.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-cream"></div>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-cream"></div>
+                    </div>
+                    <span class="sold-out-text">Sold Out</span>
+                    <div class="sold-out">
+                        <a href="#"><img src="/images/2American-Fender.png" alt="Les Paul Classic"></a>
+                        <p class="product-brand grey">Hagstrom 2009</p>
+                        <div class="details-row">
+                            <p class="product-name">Pearl Sunburst</p>
+                            <p class="product-price">$3,499.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-dark-blue"></div>
+                        <div class="image-dot dot-light-blue"></div>       
+                    </div>
+                    <a href="#"><img src="/images/2American-Professional.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Gibson 2020</p>
+                    <div class="details-row">
+                        <p class="product-name">Les Paul Classic</p>
+                        <p class="product-price">$3,499.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-cream"></div>
+                    </div>
+                    <a href="#"><img src="/images/2Fender-American-Performer-Stratocaster.png"
+                            alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Squier</p>
+                    <div class="details-row">
+                        <p class="product-name">Jazzmaster Gold</p>
+                        <p class="product-price">$2,590.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-light-blue"></div>
+                        <div class="image-dot dot-orange"></div>       
+                    </div>
+                    <a href="#"><img src="/images/Fender-Jim-Root-Telecaster.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Fender</p>
+                    <div class="details-row">
+                        <p class="product-name">American Performer</p>
+                        <p class="product-price">$3,499.00</p>
+                    </div>
+                </div>
+
+                <div class="product-gallery gallery-tile">
+                    <div class="quick-view">
+                        <a href="#"><p>View Full Details</p></a>
+                    </div>
+                    <div class="colour-preview">
+                        <div class="image-dot dot-cream"></div>
+                    </div>
+                    <a href="#"><img src="/images/Electric-white.png" alt="Les Paul Classic"></a>
+                    <p class="product-brand grey">Fender Limited Edition</p>
+                    <div class="details-row">
+                        <p class="product-name">Telecaster Electric</p>
+                        <p class="product-price">$3,599.00</p>
+                    </div>
+                </div>
+
+                 <!-- LOAD MORE BUTTON -->
+                 
+                <div class="load-more">
+                    <a  href="#">LOAD MORE</a>
+                    <ion-icon name="chevron-down-outline" style="font-size: 1.em;"></ion-icon>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- ----------------------FOOTER----------------------- -->
+
+    <div id="footer"></div>
+
+    <!-- ----------------------JS FILES----------------------- -->
+    <script src="nav.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+/* -------------------ROOT & MAIN------------------- */
+:root {
+    --primary-font: "Helvetica", sans-serif;
+    --secondary-font: "Helvetica Neue", sans-serif;
+
+    --xxl-text: 3rem;
+    --xl-text: 2rem;
+    --l-text: 1.6rem;
+    --nav-text: 1.3rem;
+    --regular-text: 1.1rem;
+    --small-text: 1em;
+    --xs-text: 0.8em;
+    --xxs-text: 0.8em;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--white)
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* -------------------HEADER PRESETS------------------- */
+
+/* HEADING */
+h1 {
+    font-family: var(--primary-font);
+    font-size: var(--xxl-text);
+}
+
+/* SUB-HEADING */
+
+h2 {
+    font-family: var(--primary-font);
+    font-size: var(--xl-text);
+}
+
+/* PRODUCT NAMES */
+
+h3 {
+    font-family: var(--primary-font);
+    font-size: var(--l-text);
+}
+
+/* HYPERLINKS & TEXT */
+
+p{
+    font-size: var(--regular-text);   
+}
+
+a{
+    font-size: var(--regular-text);
+}
+
+li{
+    font-size: var(--regular-text);
+}
+
+span{
+    font-size: var(--small-text);
+}
+
+input{
+    font-size: var(--regular-text);
+}
+
+label{
+    font-size: var(--regular-text);
+}
+
+.previous-page a{
+    font-size: var(--l-text);
+}
+
+/* -------------------NAVBAR------------------- */
+
+
+nav a{
+    text-decoration: none;
+    font-size: var(--nav-text);
+}
+
+.dropdown-content a{
+    font-size: var(--nav-text);
+}
+
+/* -------------------SIDENAV------------------- */
+
+.sidenav a{
+    font-size: var(--nav-text)
+}
+
+.sidenav span{
+    font-size: var(--nav-text);
+}
+
+.sidenav .shop-dropdown a{
+    font-size: var(--nav-text);
+}
+
+.search-container input[type=text] {
+    font-size: var(--nav-text);
+  }
+
+/* -------------------PRODUCT PAGE------------------- */
+
+.breadcrumbs h3{
+    font-size: var(--l-text)
+}
+
+.breadcrumbs a > h3{
+    font-size: var(--l-text);
+}
+
+.product-brand{
+    font-size: var(--small-text);
+}
+
+.product-name{
+    font-size: var(--regular-text);
+}
+
+.product-price{
+    font-size: var(--regular-text);
+}
+
+.sold-out-text{
+    font-size: var(--regular-text);
+}
+
+/* QUICK VIEW ANIMATION */
+.quick-view a{
+    font-size: var(--regular-text);
+}
+
+/* -------------------CHECKOUT------------------- */
+
+
+.order-summary-container li{
+    font-size: var(--small-text);
+}
+
+.submit-button{
+    font-size: var(--l-text);
+}
+
+/* -------------------CONFIRMATION MESSAGE------------------- */
+
+
+.confirmation-container p{
+    font-size: var(--l-text);
+}
+
+.confirmation-container a{
+    font-size: var(--l-text);
+}
+
+
+/* -------------------FOOTER------------------- */
+
+footer ul{
+    font-size: var(--regular-text);
+}
+
+footer a{
+    font-size: var(--regular-text) !important;
+}
+
+.footer-right{
+    font-size: var(--regular-text) !important;
+}

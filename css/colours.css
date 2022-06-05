@@ -1,0 +1,355 @@
+/* -------------------ROOT-------------------*/
+:root {
+    --white: white;
+    --grey: #9F9F9F;
+    --black: black;
+    --myBlueLight: #2F7493;
+    --myBlueDark: #0F3A43;
+    --dot-dark-dark-blue: #121C2F;
+    --dot-dark-blue: #2F7493;
+    --dot-light-blue: #51AFDB;
+    --dot-olive: #77774B;
+    --dot-cream: #E7E7C6;
+    --dot-grey: #9E998F;
+    --dot-purple: #552A52;
+    --dot-green: #95BC9D;
+    --dot-aqua: #6BB2A3;
+    --dot-orange: #F5B366;
+    --dot-peach: #E89279;
+}
+
+/* -------------------GENERAL-------------------*/
+body {
+    background: linear-gradient(120deg, rgba(0, 0, 0, 1) 0%, rgba(6, 25, 29, 1) 77%, rgba(19, 85, 99, 1) 92%, rgba(34, 150, 175, 1) 100%) !important;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--myBlueLight);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.bg-gradient:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+/* -------------------NAVBAR-------------------*/
+
+/* NAVMAIN */
+nav {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 58%, rgba(0, 0, 0, 0.8057598039215687) 100%);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: var(--white);
+}
+
+
+/* NAV DROPDOWN */
+nav .drop-down {
+    background-color: black;
+    opacity: 70%;
+}
+
+.dropdown-content {
+    background: linear-gradient(rgba(0, 0, 0, 0.8057598039215687) 58%, rgb(0, 0, 0) 100%);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* -------------------SIDENAV-------------------*/
+
+.sidenav {
+    /* background: linear-gradient(120deg, rgba(0, 0, 0, 1) 0%, rgba(6, 25, 29, 1) 77%, rgba(19, 85, 99, 1) 92%, rgba(34, 150, 175, 1) 100%) !important; */
+    background: rgb(55, 140, 180);
+    background: radial-gradient(circle at 100%, rgba(55, 140, 180, 1) 0%, rgba(39, 95, 121, 1) 21%, rgba(0, 0, 0, 1) 77%);
+
+}
+
+.search-container input[type=text] {
+    background-color: #00000000;
+    color: var(--white);
+}
+
+.search-side input[type=text] {
+    border-bottom: 1px solid white;
+}
+
+/* -------------------HOME-------------------*/
+
+.tile-container:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+.tile-container {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.reviewer-name {
+    color: var(--grey);
+    margin-bottom: 0.5em;
+}
+
+/* -------------------PRODUCT PAGE-------------------*/
+
+/* BREADCRUMBS */
+.breadcrumbs {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.previous-page a{
+    color: var(--grey);
+}
+
+.previous-page h3{
+    color: var(--grey);
+}
+
+.previous-page a:hover {
+    color: var(--myBlueLight);
+}
+
+/* FILTER COLLAPSE */
+
+.filter-collapse p{
+    color: var(--grey);
+}
+
+.filter-collapse-icons ion-icon:hover{
+    color: var(--myBlueLight);
+    cursor: pointer;
+}
+
+.filter-collapse-icons i:hover{
+    color: var(--myBlueLight);
+    cursor: pointer;
+}
+
+/* FILTER DOTS */
+
+.dot-dark-dark-blue {
+    background-color: var(--dot-dark-dark-blue);
+
+}
+
+.dot-dark-blue {
+    background-color: var(--dot-dark-blue);
+}
+
+.dot-light-blue {
+    background-color: var(--dot-light-blue);
+}
+
+.dot-olive {
+    background-color: var(--dot-olive);
+}
+
+.dot-cream {
+    background-color: var(--dot-cream);
+}
+
+.dot-grey {
+    background-color: var(--dot-grey);
+}
+
+.dot-purple {
+    background-color: var(--dot-purple);
+}
+
+.dot-green {
+    background-color: var(--dot-green);
+}
+
+.dot-aqua {
+    background-color: var(--dot-aqua);
+}
+
+.dot-orange {
+    background-color: var(--dot-orange);
+}
+
+.dot-peach {
+    background-color: var(--dot-peach);
+}
+
+.dot-white {
+    background-color: var(--white);
+}
+
+
+/* PHOTO GALLERY */
+
+.product-gallery {
+    background: var(--black);
+}
+
+.product-gallery:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+/* QUICK VIEW ANIMATION */
+.quick-view a {
+    color: var(--black);
+}
+
+/* SOLD OUT */
+
+.sold-out {
+    /* background: var(--myBlueLight); */
+    opacity: 32%;
+}
+
+/* LOAD MORE */
+
+.load-more:hover {
+    background: linear-gradient(#000000, #29769d);
+}
+
+.load-more a:hover{
+    color: var(--white);
+}
+
+/* -------------------PRODUCT LISTING-------------------*/
+
+.listing-gallery {
+    background: rgb(55, 140, 180);
+    background: radial-gradient(circle, rgba(55, 140, 180, 1) 0%, rgba(39, 95, 121, 1) 21%, rgba(0, 0, 0, 1) 77%);
+    background-position: -130px;
+}
+
+.listing-scroll img {
+    background: var(--black);
+    opacity: 60%;
+}
+
+.product-scroll-arrows a:hover{
+    color: var(--myBlueDark);
+}
+
+.listing-scroll img:hover {
+    background: linear-gradient(#000000, #29769d);
+    opacity: 100%;
+}
+
+.buttons-tile {
+    background: var(--black);
+}
+
+.quantity-listing {
+    background: var(--black);
+}
+
+.buttons-tile:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+.recommend-tile {
+    background: var(--black);
+}
+
+.recommend-tile:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+.product-seemore a{
+    color: var(--grey);
+}
+
+.product-seemore a:hover{
+    color: var(--white);
+}
+
+
+/* -------------------ADD TO CART-------------------*/
+.add-to-cart {
+    background-color: black;
+}
+
+.cart-add-brand {
+    color: var(--grey);
+}
+
+.dot-border {
+    border: 2px solid white;
+}
+
+.cart-add-buttons a:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+/* -------------------SHOPPING CART-------------------*/
+
+
+.checkout-product-tile {
+    border: 1px solid white;
+    background-color: black;
+}
+
+.checkout-product-brand {
+    color: var(--grey);
+}
+
+.checkout-button {
+    background: var(--black);
+}
+
+.checkout-button:hover {
+    background: linear-gradient(#000000, #29769d);
+    color: var(--white);
+}
+
+/* -------------------CHECKOUT-------------------*/
+
+.order-summary-container {
+    border: 1.5px solid white;
+    background: var(--black);
+}
+
+.submit-button{
+    background-color: var(--myBlueDark);
+    color: var(--white);
+}
+
+button[type=submit]:hover {
+    background: linear-gradient(#000000, #29769d);
+}
+
+/* INPUT FORM */
+.form-input {
+    background-color: #00000000;
+    color: var(--white);
+}
+
+/* -------------------CONFIRMATION MESSAGE-------------------*/
+
+.confirmation-container a {
+    color: var(--myBlueLight);
+}
+
+/* -------------------FOOTER-------------------*/
+
+
+.footer {
+    background-color: black;
+}
+
+.email-container input[type=text] {
+    border-bottom: 1px solid white;
+    background-color: #00000000;
+    color: var(--white);
+}
+
+.email-container a ion-icon {
+    color: var(--grey);
+}
